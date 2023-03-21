@@ -2,13 +2,20 @@
 
 ## 程式架構&還原效果
 
-情境
+### 應用情境
 ![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E6%83%85%E5%A2%83.jpg)
 
-還原效果
+### 還原效果
 ![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E9%82%84%E5%8E%9F%E6%95%88%E6%9E%9C.jpg)
 
+### 程式架構
 ![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E7%A8%8B%E5%BC%8F%E6%9E%B6%E6%A7%8B.jpg)
+
+### 數據增強
+![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E6%95%B8%E6%93%9A%E5%A2%9E%E5%BC%B7.jpg)
+
+### 印章遮蓋
+![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E5%8D%B0%E7%AB%A0%E9%81%AE%E6%93%8B.jpg)
 
 ## 復現產學程式碼
 
