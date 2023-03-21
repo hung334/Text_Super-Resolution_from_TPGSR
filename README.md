@@ -1,10 +1,10 @@
-#Text_Super-Resolution_from_TPGSR"
+# Text_Super-Resolution_from_TPGSR
 
-###程式架構&還原效果
+# 程式架構&還原效果
 
 
 
-###復現產學程式碼
+# 復現產學程式碼
 
 1. 下載[TPGSR](https://github.com/mjq11302010044/TPGSR)
 2. 將 `main.py`  [](http://將main.py)`myself_text_dataloader.py`  放進(取代) ./TPGSR-main
