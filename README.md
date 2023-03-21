@@ -2,8 +2,13 @@
 
 ## 程式架構&還原效果
 
-![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E7%A8%8B%E5%BC%8F%E6%9E%B6%E6%A7%8B.jpg)
+情境
+![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E6%83%85%E5%A2%83.jpg)
 
+還原效果
+![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E9%82%84%E5%8E%9F%E6%95%88%E6%9E%9C.jpg)
+
+![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E7%A8%8B%E5%BC%8F%E6%9E%B6%E6%A7%8B.jpg)
 
 ## 復現產學程式碼
 
