@@ -1,7 +1,5 @@
 # Text_Super-Resolution_from_TPGSR
 
-## 程式架構&還原效果
-
 ### 應用情境
 ![image](https://github.com/hung334/Text_Super-Resolution_from_TPGSR/blob/main/%E5%9C%96%E7%89%87/%E6%83%85%E5%A2%83.jpg)
 
