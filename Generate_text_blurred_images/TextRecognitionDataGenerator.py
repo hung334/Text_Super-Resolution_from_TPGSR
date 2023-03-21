@@ -41,11 +41,14 @@ def Generator_str_to_img(input_string,font_format=[],stroke_w=1):
 
 def Diversity_generator_str_to_img(input_string,fonts_path,fonts_datas):
     
-    #font_format = []
+    '''
     if(random.random()>0.5):
-         font_format=[os.path.join(fonts_path,choice(fonts_datas))]
+        font_format=[os.path.join(fonts_path,choice(fonts_datas))]
     else:
-         font_format = []
+        font_format = []
+    '''
+    
+    font_format = []
     
     # The generators use the same arguments as the CLI, only as parameters
     HR_generator = GeneratorFromStrings(
@@ -56,8 +59,8 @@ def Diversity_generator_str_to_img(input_string,fonts_path,fonts_datas):
         size = 64,#文字大小
         width = -1,#生成圖片寬度
         count = 1,#生成數量
-        background_type = 1,#random.randint(0, 2),#背景選擇，0:gaussian_noise、1:plain_white、2:quasicrystal、3:image
-        stroke_width = random.randint(1, 3), #文字筆劃的寬度
+        background_type = random.randint(0, 2),#背景選擇，0:gaussian_noise、1:plain_white、2:quasicrystal、3:image
+        stroke_width = 1,#random.randint(1, 3), #文字筆劃的寬度
         distorsion_type = 0, #文字失真  0:None,1:sin,2:cos,other:random
     )
    
@@ -71,7 +74,7 @@ if __name__ == '__main__':
     
     
     t1 = time.time()
-    for i in os.listdir('./Simplified_Chinese'):
+    for i in range(1):#os.listdir('./Simplified_Chinese'):
         input_string ='上海证券交易所网站' #'上海证券交易所网站'
         #HR_img = Generator_str_to_img(input_string,stroke_w=3,font_format=[os.path.join(fonts_path,i)])
         HR_img = Diversity_generator_str_to_img(input_string,fonts_path,fonts_datas)
